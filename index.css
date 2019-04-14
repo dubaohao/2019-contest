@@ -53,8 +53,8 @@ body{
 	float: left;
 }
 #yxbox .pos0{
-	/* background:url('Images/tree.gif') no-repeat; */
-	background: white no-repeat;
+	background:url('Images/tree.gif') no-repeat;
+	/* background: white no-repeat; */
 	background-size: cover;
 }
 #yxbox .pos1{
