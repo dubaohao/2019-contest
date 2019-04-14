@@ -1,0 +1,106 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-size: 100%;
+	/* background-position: left; */
+	background-repeat: repeat-y;
+	background-color: #f9f9f9;
+	margin: 0 auto;
+	display: flex;
+}
+#boxs{
+	flex: 1;
+	margin-left: 50px;
+}
+#dbhbox{
+	position: relative;
+	margin: 25px 50px;
+/* 	margin-top: 50px;
+	margin-bottom: -50px; */
+	width: 700px;
+	height: 700px;
+	border: 2px black solid;
+	flex-wrap: auto;
+
+}
+#buttons{
+	text-align: center;
+	margin: 25px 50px;
+	width: 400px;
+	height: 700px;
+	border: 2px black solid;
+	/* float: right; */
+	
+}
+.btn{
+	width: 300px;
+	margin:5px 50px;
+	text-align: center;
+}
+#yxbox{
+	padding: 0;
+	margin:0 auto;
+	margin-top:50px;
+	list-style: none;
+	position:relative;
+}
+#yxbox li{
+	width:50px;
+	height:50px;
+	float: left;
+}
+#yxbox .pos0{
+	/* background:url('Images/tree.gif') no-repeat; */
+	background: white no-repeat;
+	background-size: cover;
+}
+#yxbox .pos1{
+	background:url('Images/wall8.jpg') no-repeat;
+	background-size: cover;
+}
+#yxbox .pos2{
+	background:url('Images/wall7.jpg') center center ;
+	background-size: cover;
+}
+#yxbox .pos3{
+	background:url('Images/duiyou.jpg') no-repeat;
+	background-size: cover;
+}
+#yxbox .person1,#yxbox .person2,#yxbox .person3,#yxbox .person4{
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-image:url('Images/person.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#yxbox .box{
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-image:url('Images/box3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#yxbox .person1{
+	background-position:0;
+}
+#yxbox .person2{
+	/* background-position: -50px 0; */
+	background-position:0;
+}
+#yxbox .person3{
+	/* background-position: -100px 0; */
+	background-position:0;
+}
+#yxbox .person4{
+	/* background-position: -150px 0; */
+	background-position:0;
+}
+button{
+	width: 60px;
+	height: 25px;
+}
